@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png);
+  background-size: cover;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  border-width: 1px;
+  border-style: groove;
+  border-color: #eaebed;
+  border-radius: 10px;
+  padding-top: 20px;
+  height: 45vh;
+  width: 25vw;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #0b69ff;
+}
+.description {
+  font-family: 'Roboto';
+  color: #333333;
+}
+.generate-button {
+  color: #e4ebf3;
+  background-color: #0b69ff;
+  border-width: 0px;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+.Result {
+  font-family: 'roboto';
+  font-size: 35px;
+  color: #0b69ff;
+}
